@@ -47,7 +47,7 @@ output_dir = 'output_dir/'
 if not os.path.isdir(output_dir):
     os.makedirs(output_dir)
 
-
+apikey = os.environ["OPENAI_API_KEY"]
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 
